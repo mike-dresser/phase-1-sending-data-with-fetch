@@ -9,11 +9,13 @@
         margin: 1em 5em;
       }
     </style>
+    <script defer src="./index.js"></script>
   </head>
 
   <body>
     <h1>Sample Form</h1>
-    <form action="http://localhost:3000/dogs" method="POST">
+    <!-- <form action="http://localhost:3000/dogs" method="POST"> -->
+    <form>
       <label> Dog Name: <input type="text" name="dogName" id="dogName" /></label><br />
       <label> Dog Breed: <input type="text" name="dogBreed" id="dogBreed" /></label><br />
       <input type="submit" id="submit" value="Submit" />
